@@ -19,8 +19,10 @@
  */
 class SwtGriffonArchetype {
     String version = '1.0'
-    String griffonVersion = '0.9.5-SNAPSHOT > *'
+    String griffonVersion = '0.9.5 > *'
     String license = 'Apache Software License 2.0'
+    String documentation = ''
+    String source = 'https://github.com/griffon/griffon-swt-archetype'
     List authors = [
         [
             name: 'Andres Almiray',
@@ -42,6 +44,4 @@ Configuration
 -------------
 There's no additional configuration required by this archetype.'
 '''
-
-    String documentation = 'http://griffon.codehaus.org/Swt+Archetype'
 }
